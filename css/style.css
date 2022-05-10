@@ -202,16 +202,29 @@ li a {
 
 .container-e {
     width: 20%;
+    line-height: 40px;
+    color: white;
 }
 
-.container-d .title-4 h1 {
-    font-size: 50px;
-    margin-top: 30px;
-
+.container-e h1 {
+    font-size: 30px;
 }
 
 .sct-f h1 {
     color: #7289da;
+}
+
+.flag {
+    width: 20px;
+}
+
+.language {
+    display: inline-block;
+    color: white;
+}
+
+.fa-brands {
+    padding-right: 10px;
 }
 
 .container-f {
@@ -252,6 +265,10 @@ li a {
 
 .logo-f {
     align-self: center;
+}
+
+.container-f .btn {
+    font-size: 15px;
 }
 
 
