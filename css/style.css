@@ -114,12 +114,32 @@ li a {
     margin: 0 auto; */
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    padding: 150px 0;
 }
 
 .container-b {
     width: 60%;
 }
+
+.wave {
+    display: block;
+    height: 100px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+    background-image: url(../img/wave.svg);
+}
+
+.wave-bot {
+    display: block;
+    transform: rotateX(180deg);
+    height: 100px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+    background-image: url(../img/wave.svg);
+}
+
 
 .container-c {
     width: 40%;
@@ -179,6 +199,10 @@ li a {
 }
 
 .caption {
+    /* background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:top; */
     font-size: 30px;
 }
 
