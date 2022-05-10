@@ -3,3 +3,99 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(37, 94, 233);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.menu {
+    flex-grow: 3;
+}
+
+.login {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.btn {
+    border-radius: 20px;
+    border-style: none;
+    padding: 15px;
+}
+
+.btn-big {
+    font-size: 20px;
+}
+
+.btn-bl {
+    background-color: #23272a;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 30px;
+}
+
+.container-a {
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+
+.title {
+    padding: 20px;
+}
+
+.description {
+    line-height: 30px;
+}
+
+.buttons {
+    padding: 20px;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.description p {
+    font-size: 20px;
+}
