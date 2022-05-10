@@ -199,10 +199,11 @@ li a {
 }
 
 .caption {
-    /* background-image: url(../img/stars.svg);
+    padding: 30px;
+    background-image: url(../img/stars.svg);
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position:top; */
+    background-position:top;
     font-size: 30px;
 }
 
